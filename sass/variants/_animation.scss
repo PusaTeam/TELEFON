@@ -1,0 +1,84 @@
+@keyframes fade-down {
+    from{top: -109px;}
+    to{top: 0px}
+}
+
+@-webkit-keyframes fade-down {
+    from{top: -109px;}
+    to{top: 0px}
+    }
+
+    @keyframes fade-right {
+        from{left: -100%;}
+        to{left: 0px}
+    }
+        
+    @-webkit-keyframes fade-right {
+        from{left: -100%;}
+        to{left: 0px}
+    }
+
+
+@keyframes fade-left {
+    from{right: -100%;}
+    to{right: 0px}
+}
+    
+@-webkit-keyframes fade-left {
+    from{right: -100%;}
+    to{right: 0px}
+}
+    
+@keyframes fade-up {
+    from{bottom: -100%;}
+    to{bottom: 0%}
+}
+    
+@-webkit-keyframes fade-up {
+    from{bottom: -100%;}
+    to{bottom: 0%}
+}  
+
+@keyframes colordark{
+    0% {background-color: #ffffff00;
+    box-shadow: none}
+    100% {background-color: #474e5d ;}
+}
+    
+
+@-webkit-keyframes colordarkg{
+    0% {background-color: #ffffff00 ;}
+    100% {background-color: #474e5d ;}
+}
+
+@keyframes colorr{
+    0% {background-color: #ffffff00 ;}
+    100% {background-color: #f3787a ;}
+}
+    
+
+@-webkit-keyframes colorr{
+    0% {background-color: #ffffff00 ;}
+    100% {background-color: #f3787a ;}
+}
+@keyframes colorg{
+    0% {background-color: #ffffff00 ;}
+    100% {background-color: #a5a4a4 ;}
+}
+    
+
+@-webkit-keyframes colorg{
+    0% {background-color: #ffffff00;}
+    100% {background-color: #a5a4a4 ;}
+}
+
+@keyframes colororg{
+    0% {background-color: #fee9a300 ;}
+    100% {background-color: #fee9a3 ;}
+}
+    
+
+@-webkit-keyframes colororg{
+    0% {background-color: #fee9a300;}
+    100% {background-color: #fee9a3 ;}
+}

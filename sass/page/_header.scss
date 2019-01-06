@@ -1,0 +1,209 @@
+header{
+    width: 100vw;
+    background: url(../img/header_bg.png);
+    color: $header_font_color;
+    height: 651px;
+    text-shadow: #474e5d 2px 2px 2px;
+    position: relative;
+    z-index: 0;
+    }
+
+
+.header__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 54px;
+    animation-name: fade-down;
+    position: relative;
+    animation-duration: 1s;
+    animation-timing-function: ease-out
+}
+
+.header__top__logo{
+    background-color: #fff;
+    font-size: 50px;
+    color: #528fa7;
+    padding: 26px 36px;
+    margin-left: 160px;
+    box-shadow: 15px 14px $header_font_color2;
+    text-shadow: none;
+    cursor: pointer;}
+
+.header__top__nav ul{
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+    position: relative;
+    cursor: pointer; 
+    text-shadow: none;    
+}
+
+
+.fas{
+    font-size: 35px;
+}
+
+.header__top__nav__drop{
+    display: none;
+    width: 150px;
+    text-align: center;
+    position: absolute;
+right: 0;}
+
+
+.header__top__nav:hover .header__top__nav__drop{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    }
+
+
+.header__top__nav__drop__link{
+    text-decoration: none;
+    color: $header_font_color2;
+    padding: 10px 20px;
+    font-size: 20px
+}
+
+.header__bot{
+    display: flex;
+    flex-direction: column;
+}
+
+.header__bot__pic__big * {
+    display:block;
+    position: relative;
+    margin: 0 auto;
+}
+ 
+.header__bot__pic__big{
+    display: block;
+    background-color: #474e5d;
+    height:482px;
+    width: 228px;
+    margin: 200px 0 0 231px ;
+    border-radius: 35px;
+    z-index: 10;
+    position: absolute;
+    box-shadow:  #474e5d 4px 4px 4px;   
+    animation-name: colordarkg;
+    animation-duration: 1s;
+}
+
+
+.header__bot__pic__small{
+    width: 200px;
+    height: 350px;
+    background-color: #f3787a;
+    margin: 66px 15px;
+    animation-name: colorr;
+    animation-duration: 1s;
+}
+
+
+.header__bot__pic_greyc{
+    width: 9px;
+    height: 9px;
+    background-color: #a5a4a4;
+    border-radius: 50%;
+    margin-top: -453px;
+    margin-bottom: 8px;
+    animation-name: colorg;
+    animation-duration: 1s;
+}
+
+
+.header__bot__pic__greyo{
+    width: 43px;
+    height: 10px;
+    background-color: #a5a4a4;
+    border-radius: 20px;
+    animation-name: colorg;
+    animation-duration: 1s;
+}
+
+
+
+.header__bot__text{
+    margin-top: 25px;
+    line-height: 25px;
+    text-align: right;
+    margin-left: 369px;
+    margin-bottom: 60px;
+    animation-name:fade-left;
+    position: relative;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    margin-right: 40px;}
+.header__bot__text * span{
+    font-weight: 700;
+    font-style: italic
+    
+}
+.header__bot__text h1{
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+}
+
+.header__bot__text>p{
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+}
+
+.header__bot__btn__link{
+    margin-left: 929px;
+    width: 169px;
+}
+
+.header__bot__btn{
+    border: 2px solid $header_font_color;
+    color: $header_font_color;
+    font-size: 17px;
+    text-shadow: #474e5d 2px 2px 2px;
+    box-shadow:  #474e5d 4px 4px 4px;
+    animation-name:fade-up;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    position: relative;
+    margin-left: 929px;
+    width: 169px;
+    text-align: center;
+    padding: 12px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700
+    }
+   
+.header__bot__btn:hover{
+    box-shadow: inset #528fa7 4px 4px 4px;
+    background-color: rgb(73, 174, 233);
+    color: $header_font_color;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}    
+
+.header__bot__btn>i{
+    font-size: 20px;
+    margin-left: 12px;  }
+
+    .header__bot__pic__big:hover *{
+        transition: all 1s ease
+    }
+
+.header__bot__pic__big:hover{
+    background-color: #e0dfdf;
+    box-shadow: #528fa7 4px 4px 4px;
+    transition: all 1s ease;
+}
+.header__bot__pic__big:hover .header__bot__pic__small{
+    background-color: #8a0678
+}
+
+.header__bot__pic__big:hover .header__bot__pic_greyc{
+     background-color: #000000
+}
+
+.header__bot__pic__big:hover .header__bot__pic__greyo{
+    background-color: #000000
+}
+
